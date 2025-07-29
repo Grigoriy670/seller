@@ -1,0 +1,237 @@
+.top-cart {
+    height: 400px;
+    background-image: url(images/cart.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading-big {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: left;
+    margin-top: 127px;
+}
+
+.catalog-link__item{
+color: rgb(0, 0, 0);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-decoration: underline;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+
+    &__form-cart {
+        border-radius: $border-radius-md;
+        background: #f7f6f6;
+        grid-column: span 4;
+    }
+
+    &__content {
+         grid-column: span 8;
+
+}
+    &__name-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: $font-size-sm;
+}
+    &__item {
+    border-top: 0.5px solid rgb(202, 205, 216);
+    padding-top: 25px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+    &__left{
+    display: flex;
+    gap: 32px;
+}
+
+&__info{
+    display: flex;
+    flex-direction: column;
+    gap: $font-size-sm;
+}
+
+&__form-title{
+color: rgb(0, 0, 0);
+font-size: $font-size-lg;
+font-weight: 700;
+line-height: 29px;
+text-align: center;
+padding-top: 42px;
+}
+
+&__form-box{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 35px;
+}
+
+&__form-input{
+    border: none;
+    border-bottom: 1px solid rgb(202, 205, 216);
+    background-color: transparent;
+    color: inherit;
+    margin-left: 27px;
+    margin-right: 64px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: $font-size-sm;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+
+} 
+
+&__price{
+    margin-top: 65px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: $font-size-lg;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+&__btn{
+box-sizing: border-box;
+border: 1px solid rgb(4, 4, 4);
+border-radius: $border-radius-md;
+width: 290px;
+height: 41px;
+color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: center;
+margin:0 auto;
+display: block;
+background-color: inherit;
+margin-top: 18px;
+margin-bottom: 148px;
+transition: transform 0.3s ease;
+			
+}
+
+&__ipt{
+border-radius: 6px;
+background: rgb(247, 246, 246);
+width: 71px;
+height: 51px;
+text-align: center;
+color: rgb(0, 0, 0);
+font-family: Poppins, sans-serif; 
+font-size: 14px;
+font-weight: 600;
+line-height: 210%;
+outline: none;
+border: none;
+
+
+}
+&__button{
+box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 50px;
+max-width: 290px;
+width: 100%;
+height: 37px;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+margin-top: 50px;
+background-color: transparent;
+font-family: inherit;
+}
+
+&__buttons{
+box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 50px;
+width: 200px;
+height: 37px;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+margin-top: 50px;
+background-color: transparent;
+font-family: inherit;
+}
+
+&__heading{
+color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+
+}
+
+&__text{
+color: rgb(136, 136, 136);
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+width: 276px;
+
+}
+
+&__value{
+color: rgb(5, 5, 5);
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+
+
+}
+
+&__link{
+color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 210%;
+text-decoration: underline;
+}
+
+
+.cart__button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.6s ease-in-out;
+}
+
+
+.cart__buttons:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.6s ease-in-out;
+}
+
+.cart__btn:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+}
+
+
+
